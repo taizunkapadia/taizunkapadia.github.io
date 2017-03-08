@@ -61,6 +61,93 @@ footer {
 	display:none;
 }
 
+.enq {
+	display: inline;
+	width: 120px;
+	padding: 10px 10px 10px 10px;
+	background-color: green;
+	border-radius: 10px;
+	color: #fff;
+	margin: auto;
+	border: solid 1px white;
+}
+
+.enq a {
+	text-decoration:none;
+	color:inherit;
+}
+
+.enq1 {
+	display: block;
+	height: 40px;
+	width: 120px;
+	padding: 0;
+	background-color: green;
+	border-radius: 10px;
+	color: #fff;
+	margin-top: 5px;
+	border: solid 1px white;
+}
+
+.formtxtinput {
+	height: 29px;
+	width: 170px;
+	border: 1px solid grey;
+	border-radius: 6px;
+	padding-left: 5px;
+}
+
+.formtxtinput1 {
+	height: 29px;
+	width: 120px;
+	border: 1px solid grey;
+	border-radius: 6px;
+	padding-left: 5px;
+}
+
+.shareimg {
+	text-align:center;
+}
+.shareimg img {
+	width: 25px;
+	height: 25px;
+}
+
+.markbg {
+	background-color: white;
+	color: grey;
+}
+
+.markbg a {
+	font-size:inherit;
+	color:inherit;
+}
+
+.markbg1 {
+	font-size: 16px;
+	color: inherit;
+	background: white;
+}
+
+.markbg2 {
+	color: inherit;
+  	background: white;
+}
+
+.markbg2:hover {
+	text-decoration: underline;
+	color: inherit;
+}
+
+.whyus {
+	list-style:disc;
+	font-size: 16px;
+}
+
+.gotcha {
+	display:none;
+}
+
 @media(max-width:1200px) {
     .headline h1 {
         font-size: 140px;
@@ -200,12 +287,22 @@ footer {
 	
 	.mobcta {
 		display: inline;
-		width: 120px;
-		padding: 10px 10px 10px 10px;
-		background: grey;
+		width: 50px;
+		padding: 10px 0 10px 0;
+		background: green;
 		border-radius: 10px;
 		color: #fff;
 		margin: auto;
 		border: solid 1px white;
 	}
+
+	.mobcta a img {
+		width: 20px;
+		height: 20px;
+	}
+	
+	.mobonly {
+		display: inline;
+	}
+	
 }
