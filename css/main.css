@@ -41,6 +41,13 @@ body {
     overflow: hidden;
 }
 
+.featurette1 {
+    overflow: hidden;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 .featurette-image.pull-left {
     margin-right: 40px;
 }
@@ -128,7 +135,7 @@ footer {
 	padding-left: 6px;
 }
 
-.enq1 {
+.featurette1 button {
 	display: block;
 	height: 40px;
 	width: 120px;
@@ -137,15 +144,17 @@ footer {
 	border-radius: 10px;
 	color: #fff;
 	margin-top: 5px;
+	margin-left:auto;
+	margin-right:auto;
 	border: solid 1px white;
 }
 
-.enq1 span {
+.featurette1 span {
 	font-size: small;
 	padding-right: 8px;
 }
 
-.enq1:hover {
+.featurette1 button:hover {
 	background: #3b5998;
 	color: white;
 	border: solid 1px white;
@@ -247,6 +256,10 @@ footer {
 
 .mobonly {
 	display:none;
+}
+
+.h2align {
+	text-align:center;
 }
 
 @media(max-width:1200px) {
