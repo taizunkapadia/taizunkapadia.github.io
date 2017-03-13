@@ -61,9 +61,49 @@ footer {
 	display:none;
 }
 
+.otherprd {
+	display: block;
+	width: 110px;
+	align-self:auto;
+	padding: 10px 10px 10px 10px;
+	background-color: grey;
+	border-radius: 6px;
+	color: #fff;
+	margin: auto;
+	border: solid 1px white;
+}
+
+.otherprd:hover {
+	background: white;
+	color: grey;
+	border: solid 1px grey;
+}
+
+.otherprd span {
+	margin-left: 5px;
+	font-size: small;
+}
+
+.sectionbrdr {
+	border: solid 1px grey;
+	border-radius: 10px;
+	margin:5px 5px 5px 5px;
+}
+
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 .enq {
 	display: inline;
-	width: 120px;
+	width: 130px;
 	padding: 10px 10px 10px 10px;
 	background-color: green;
 	border-radius: 10px;
@@ -72,9 +112,20 @@ footer {
 	border: solid 1px white;
 }
 
+.enq:hover {
+	background: white;
+	color: green;
+	border: solid 1px green;
+}
+
 .enq a {
 	text-decoration:none;
 	color:inherit;
+}
+
+.enq span {
+	font-size: small;
+	padding-left: 6px;
 }
 
 .enq1 {
@@ -86,6 +137,17 @@ footer {
 	border-radius: 10px;
 	color: #fff;
 	margin-top: 5px;
+	border: solid 1px white;
+}
+
+.enq1 span {
+	font-size: small;
+	padding-right: 8px;
+}
+
+.enq1:hover {
+	background: #3b5998;
+	color: white;
 	border: solid 1px white;
 }
 
@@ -108,9 +170,24 @@ footer {
 .shareimg {
 	text-align:center;
 }
+
 .shareimg img {
-	width: 25px;
-	height: 25px;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+}
+
+.shareimg img:hover, .shareimg img:focus, .shareimg img:active {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
 }
 
 .markbg {
@@ -145,6 +222,30 @@ footer {
 }
 
 .gotcha {
+	display:none;
+}
+
+.widthsrng {
+	padding:0;
+	margin:0;
+}
+.widthsrng li {
+	list-style-type:none;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;	
+}
+
+.widthsrng li:before {
+    content: "\e007";
+    font-family: 'Glyphicons Halflings';
+    font-size: 14px;
+	margin-left: 5px;
+	margin-right: 7px;
+	font-weight:normal;
+}
+
+.mobonly {
 	display:none;
 }
 
@@ -296,13 +397,32 @@ footer {
 		border: solid 1px white;
 	}
 
-	.mobcta a img {
+	.mobcta img {
 		width: 20px;
 		height: 20px;
 	}
 	
 	.mobonly {
+		overflow: auto;
 		display: inline;
 	}
 	
+	.widthsrng {
+		display:none;
+	}
+	
+	.otherprd {
+		display: block;
+		width: 95px;
+		font-size:12px;
+		align-self:auto;
+		padding: 5px 0 5px 0;
+		background-color: grey;
+		border-radius: 6px;
+		color: #fff;
+		margin: auto;
+		border: solid 1px white;
+	}
+
+		
 }
