@@ -230,6 +230,28 @@ footer {
 	font-size: 16px;
 }
 
+.cities {
+	padding-right: 5px;
+	margin-right: 5px;
+}
+
+.cities li {
+	list-style:disc;
+	margin-bottom: 5px;
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.cities li:before {
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 12px;
+	margin-left: 5px;
+	margin-right: 7px;
+	font-weight:normal;
+}
+
 .gotcha {
 	display:none;
 }
